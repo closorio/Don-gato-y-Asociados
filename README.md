@@ -10,9 +10,14 @@
   cd Don-gato-y-asociados
   ```
 
-- Con el servicio Docker corriendo, Iniciar entorno de desarrollo:
+- Para iniciar el entorno de desarrollo con Docker:
   ```bash
   docker-compose up
+  ```
+  
+  - Para iniciar el entorno de desarrollo con Kubernetes
+  ```bash
+  kubectl apply -f kubernetes/
   ```
 
 
